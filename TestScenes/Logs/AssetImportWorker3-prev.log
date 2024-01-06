@@ -1,0 +1,281 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.26f1c1 (19b503b0ef33) revision 1684739'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15557 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\ProgramFilesD\UnityHub\Unity Editor\2021.3.26f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/__ARCHIEVE__/KTH/DM2350 Human Perception/TestScenes
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51625
+Successfully changed project path to: D:/__ARCHIEVE__/KTH/DM2350 Human Perception/TestScenes
+D:/__ARCHIEVE__/KTH/DM2350 Human Perception/TestScenes
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [63836] Host "[IP] 192.168.5.5 [Port] 0 [Flags] 2 [Guid] 2721532477 [EditorId] 2721532477 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08NO7N8B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [63836] Host "[IP] 192.168.5.5 [Port] 0 [Flags] 2 [Guid] 2721532477 [EditorId] 2721532477 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08NO7N8B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 94.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1c1 (19b503b0ef33)
+[Subsystems] Discovering subsystems at path D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.26f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/__ARCHIEVE__/KTH/DM2350 Human Perception/TestScenes/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25e0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.2892
+Initialize mono
+Mono path[0] = 'D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.26f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.26f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.26f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.26f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/ProgramFilesD/UnityHub/Unity Editor/2021.3.26f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017472 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 601 ms
+Refreshing native plugins compatible for Editor in 88.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1532ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1211ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (975ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (735ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016134 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\__ARCHIEVE__\KTH\DM2350 Human Perception\TestScenes\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\__ARCHIEVE__\KTH\DM2350 Human Perception\TestScenes\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.455 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1456ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1138ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (604ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (284.5 KB). Loaded Objects now: 3518.
+Memory consumption went from 113.2 MB to 113.0 MB.
+Total: 3.697200 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.120000 ms MarkObjects: 3.122800 ms  DeleteObjects: 0.079200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1369197.820418 seconds.
+  path: Assets/Resources/Objects/Models/RefPanPot/Prefabs/Bowl_rect_red.prefab
+  artifactKey: Guid(face7833a6788c44f8d10c288957a5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/RefPanPot/Prefabs/Bowl_rect_red.prefab using Guid(face7833a6788c44f8d10c288957a5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2d75f5b1072c4f563ce72a27814b49') in 0.279520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.776760 seconds.
+  path: Assets/Resources/Objects/Models/RefPanPot/Prefabs/Bowl_round_red.prefab
+  artifactKey: Guid(a2818a1c86b5794468a6585fd8dfc6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/RefPanPot/Prefabs/Bowl_round_red.prefab using Guid(a2818a1c86b5794468a6585fd8dfc6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2efa8926030369b000aa34993f12a7') in 0.009717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Objects/Models/RefPanPot/Prefabs/Pan_hex_red.prefab
+  artifactKey: Guid(c4fe6e55f909bdb409e000ddcdc1a644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/RefPanPot/Prefabs/Pan_hex_red.prefab using Guid(c4fe6e55f909bdb409e000ddcdc1a644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e94cb0aa0497e66753e0cb5a0de8bd3') in 0.007715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002423 seconds.
+  path: Assets/Resources/Objects/Models/RefPanPot/Prefabs/Pan_rect_red.prefab
+  artifactKey: Guid(c1c8d55de741af8439924286a6056c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/RefPanPot/Prefabs/Pan_rect_red.prefab using Guid(c1c8d55de741af8439924286a6056c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27972515c15a91b51f44ca19b1e240e0') in 0.006433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021151 seconds.
+  path: Assets/Resources/Objects/Models/RefPanPot/Prefabs/Plate_rect_blue.prefab
+  artifactKey: Guid(3ef513ddee34268428122f5b817f7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/RefPanPot/Prefabs/Plate_rect_blue.prefab using Guid(3ef513ddee34268428122f5b817f7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f20d67e3327cafad9acb68c2ede5e7') in 0.006368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034465 seconds.
+  path: Assets/Resources/Objects/Models/RefPanPot/Prefabs/Pot_rect_blue.prefab
+  artifactKey: Guid(e763bd198a84a0045b6271b51f77eabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/RefPanPot/Prefabs/Pot_rect_blue.prefab using Guid(e763bd198a84a0045b6271b51f77eabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736687c0c40312df29e58b95aa49e2fd') in 0.006180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009214 seconds.
+  path: Assets/Resources/Objects/Models/RefPanPot/Prefabs/Pot_round_blue.prefab
+  artifactKey: Guid(9287810c273a39946bb53cf69ab91e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/RefPanPot/Prefabs/Pot_round_blue.prefab using Guid(9287810c273a39946bb53cf69ab91e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbdf3cec9e5094c11ef510b5cbcfe76') in 0.007096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.504868 seconds.
+  path: Assets/Resources/Objects/Models/Bakery/Prefabs/Bread_slice_brown.prefab
+  artifactKey: Guid(ec847a0ddbd361f46862d84624eec567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/Bakery/Prefabs/Bread_slice_brown.prefab using Guid(ec847a0ddbd361f46862d84624eec567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264c4901fab43e83085e6a1da26a017f') in 0.227323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.728647 seconds.
+  path: Assets/Resources/Objects/Models/Can/Prefabs/Lentil_big.prefab
+  artifactKey: Guid(8e220e1200d4e5c49993c576591e4765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/Can/Prefabs/Lentil_big.prefab using Guid(8e220e1200d4e5c49993c576591e4765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4193f79c333824a0d693acbfadffaa') in 0.052554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Objects/Models/Can/Prefabs/Peas_big.prefab
+  artifactKey: Guid(a935a2cf0c6b7f843925dd5475a12c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/Can/Prefabs/Peas_big.prefab using Guid(a935a2cf0c6b7f843925dd5475a12c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1c22bc23cf217be8e84b674eef69ca') in 0.023155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Objects/Models/Can/Prefabs/Tuna_red.prefab
+  artifactKey: Guid(167ab40ffe272db40aaabc26dab9cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/Can/Prefabs/Tuna_red.prefab using Guid(167ab40ffe272db40aaabc26dab9cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedf2603379260355b0f4bc58ceddee9') in 0.023657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.787851 seconds.
+  path: Assets/Resources/Objects/Models/DairyMeat/Prefabs/Cheese_yellow.prefab
+  artifactKey: Guid(228beba617acda942b55e39635412a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/DairyMeat/Prefabs/Cheese_yellow.prefab using Guid(228beba617acda942b55e39635412a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0ee495e7d168b0f9ca3649746608a3') in 0.020473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Objects/Models/DairyMeat/Prefabs/Chicken.prefab
+  artifactKey: Guid(9b6891072783d8d4eb8e0377accecbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/DairyMeat/Prefabs/Chicken.prefab using Guid(9b6891072783d8d4eb8e0377accecbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f885724d3a4d2250ddcc075eac4390') in 0.423238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Objects/Models/DairyMeat/Prefabs/Fish.prefab
+  artifactKey: Guid(fedf7ebb13ded2c44a603d3ca906b9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/DairyMeat/Prefabs/Fish.prefab using Guid(fedf7ebb13ded2c44a603d3ca906b9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bc74bca39f2f7eb4f44637726d04d5') in 0.372793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.612656 seconds.
+  path: Assets/Resources/Objects/Models/DairyMeat/Materials/EMBALAGEM_LEITE2.mat
+  artifactKey: Guid(e421832a6c9c4874a9059839af64eb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/DairyMeat/Materials/EMBALAGEM_LEITE2.mat using Guid(e421832a6c9c4874a9059839af64eb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050eacb2d7c576b395d066f4d42af304') in 0.078034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Objects/Models/DairyMeat/Materials/EMBALAGEM_LEITE5.mat
+  artifactKey: Guid(bf36fa7306593ee428858e66da39575c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/DairyMeat/Materials/EMBALAGEM_LEITE5.mat using Guid(bf36fa7306593ee428858e66da39575c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682a0ab65101829313d859a390866d97') in 0.020225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Objects/Models/DairyMeat/Materials/EMBALAGEM_LEITE6.mat
+  artifactKey: Guid(7b2f32d7b9f53fb46be3f5cefa2d2f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/DairyMeat/Materials/EMBALAGEM_LEITE6.mat using Guid(7b2f32d7b9f53fb46be3f5cefa2d2f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfc0a076e70b3ebabc4cd08e3f38824') in 0.015243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Objects/Models/DairyMeat/Materials/EMBALAGEM_LEITE5_c.png
+  artifactKey: Guid(6b2c3726d60ba1847aebca15b1969fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Objects/Models/DairyMeat/Materials/EMBALAGEM_LEITE5_c.png using Guid(6b2c3726d60ba1847aebca15b1969fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91abb305ddc006634b88adbd858ee5f6') in 0.052603 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

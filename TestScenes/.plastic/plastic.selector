@@ -1,0 +1,4 @@
+repository "TestScenes@psybertwhat@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
