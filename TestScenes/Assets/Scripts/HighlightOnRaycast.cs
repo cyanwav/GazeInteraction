@@ -4,52 +4,87 @@ using UnityEngine;
 
 public class HighlightOnRaycast : MonoBehaviour
 {
-    private GameObject lastHitObject;
+    private GameObject lastMainParent;
+    public GameObject sourceObject;
+    GameObject FindPrefabParent(GameObject child)
+    {
+        Transform currentParent = child.transform;
+        // Keep traversing up the hierarchy until the parent is null
+        while (currentParent.parent != null)
+        {
+            currentParent = currentParent.parent;
+            // Check if the current parent has the specified tag
+            if (currentParent.CompareTag("SimObjPhysics"))
+            {
+                // Stop the search and return the current parent
+                return currentParent.gameObject;
+            }
+        }
+        // No prefab parent found
+        return null;
+    }
 
     void Update()
     {
-        Vector3 cameraPosition = Camera.main.transform.position;
-        Vector3 cameraForward = Camera.main.transform.forward;
+        // Vector3 sourcePosition = sourceObject.main.transform.position;
+        // Vector3 sourceForward = sourceObject.main.transform.forward;
+        Vector3 sourcePosition = sourceObject.transform.position;
+        Vector3 sourceForward = sourceObject.transform.forward;
 
         // Cast a ray from the direction the camera faces
-        Ray ray = new Ray(cameraPosition, cameraForward);
+        Ray ray = new Ray(sourcePosition, sourceForward);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit))
         {
             // If the ray hit an object
-            Renderer renderer = hit.collider.GetComponent<Renderer>();
-            if (renderer != null)
+            Debug.Log(hit.collider.gameObject.name);
+            GameObject mainParent = FindPrefabParent(hit.collider.gameObject);
+            if (mainParent == null)
             {
-                // If the last hit object is not the current hit object
-                if (lastHitObject != null && lastHitObject != hit.collider.gameObject)
+                // Debug.Log("Main parent not found");
+            }
+            else
+            {
+                Debug.Log("Found parent: " + mainParent.name);
+                Highlight highlightComponent = mainParent.GetComponent<Highlight>();
+                if (highlightComponent != null)
                 {
-                    // Return the color of the last hit object to white
-                    Renderer lastRenderer = lastHitObject.GetComponent<Renderer>();
-                    if (lastRenderer != null)
+                    // If the last hit object is not the current hit object
+                    if (lastMainParent != null && lastMainParent != mainParent)
                     {
-                        lastRenderer.material.color = Color.white;
+                        // Return the color of the last hit object to white
+                        Highlight lastHighlightComponent = lastMainParent.GetComponent<Highlight>();
+                        if (lastHighlightComponent != null)
+                        {
+                            Debug.Log("De-highlighting object: " + lastMainParent.name);
+                            lastHighlightComponent.ToggleHighlight(false);
+                        }
                     }
+                    // Change the color of the hit object
+                    highlightComponent.ToggleHighlight(true);
+                    // Update the last hit object
+                    lastMainParent = mainParent;
+
                 }
-
-                // Change the color of the hit object
-                renderer.material.color = Color.black;
-
-                // Update the last hit object 
-                lastHitObject = hit.collider.gameObject;
+                else
+                {
+                    Debug.Log("Highlight component not found on " + mainParent.name);
+                }
             }
         }
         else
         {
-            // If the ray does not hit any object, return the color of the last hit object to white
-            if (lastHitObject != null)
+            // If the ray does not hit any object, de-highlight the last hit object
+            if (lastMainParent != null)
             {
-                Renderer lastRenderer = lastHitObject.GetComponent<Renderer>();
-                if (lastRenderer != null)
+                Highlight lastHighlightComponent = lastMainParent.GetComponent<Highlight>();
+                if (lastHighlightComponent != null)
                 {
-                    lastRenderer.material.color = Color.white;
-                    lastHitObject = null;
+                    Debug.Log("De-highlighting object: " + lastMainParent.name);
+                    lastHighlightComponent.ToggleHighlight(false);
                 }
+                lastMainParent = null;
             }
         }
     }
